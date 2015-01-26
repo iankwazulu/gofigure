@@ -21,20 +21,36 @@
   <h2>Financial updates<br>
 at your finger tips!</h2>
 
-<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup" data-position-to="window">Sign Up</a>
+<a href="#register" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup" data-position-to="window">Register</a>
 <a href="#login" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup" data-position-to="window">Login</a>
-<div data-role="popup" id="signup" class="ui-content" data-theme="a">
-<p>I am positioned to the window.</p>
+<div data-role="popup" id="register" data-theme="a" class="ui-corner-all">
+    <form>
+        <div style="padding:10px 20px;">
+            <h3>Please register</h3>
+            <label for="un" class="ui-hidden-accessible">Email:</label>
+            <input type="text" name="user" id="un" value="" placeholder="email" data-theme="a">
+            <label for="pw" class="ui-hidden-accessible">Password:</label>
+            <input type="password" name="pass" id="pw" value="" placeholder="password" data-theme="a">
+            <label for="pw" class="ui-hidden-accessible">Confirm password:</label>
+            <input type="password" name="pass" id="pw" value="" placeholder="confirm password" data-theme="a">
+            <label for="pw" class="ui-hidden-accessible">Title:</label>
+            <input type="text" name="pass" id="pw" value="" placeholder="title" data-theme="a">
+            <label for="pw" class="ui-hidden-accessible">Full Name:</label>
+            <input type="text" name="pass" id="pw" value="" placeholder="full name" data-theme="a">
+            <a href="#two" data-role="button">Submit</a><!-- button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">Login</button -->
+        </div>
+    </form>
 </div>
 <div data-role="popup" id="login" data-theme="a" class="ui-corner-all">
     <form>
         <div style="padding:10px 20px;">
             <h3>Please sign in</h3>
-            <label for="un" class="ui-hidden-accessible">Username:</label>
-            <input type="text" name="user" id="un" value="" placeholder="username" data-theme="a">
+            <label for="un" class="ui-hidden-accessible">Email:</label>
+            <input type="text" name="user" id="un" value="" placeholder="email" data-theme="a">
             <label for="pw" class="ui-hidden-accessible">Password:</label>
             <input type="password" name="pass" id="pw" value="" placeholder="password" data-theme="a">
             <a href="#two" data-role="button">Submit</a><!-- button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">Login</button -->
+            <p>Forgot password</p>
         </div>
     </form>
 </div>
@@ -53,26 +69,35 @@ at your finger tips!</h2>
   </div><!-- /header -->
   
   <div role="main" class="ui-content">
+    <h2>Financial reporting</h2>
     <ul data-role="listview" data-inset="true" data-theme="a">
       <li><a href="#tax"> <img src="images/tax1.jpg">
-        <h2>Tax</h2>
-        <p>Tax updates</p>
+        <h2>Video name</h2>
+        <p>Short description</p>
       </a> </li>
       <li><a href="#"> <img src="images/pensions1.jpg">
-        <h2>Pensions</h2>
-        <p>Pension updates</p>
+        <h2>Video name</h2>
+        <p>Short description</p>
       </a> </li>
       <li><a href="#"> <img src="images/acc1.jpg">
-        <h2>Accounting</h2>
-        <p>Accounting updates</p>
+        <h2>Video name</h2>
+        <p>Short description</p>
       </a> </li>
       <li><a href="#"> <img src="images/auditing1.jpg">
-        <h2>Auditing</h2>
-        <p>Auditing updates</p>
+        <h2>Video name</h2>
+        <p>Short description</p>
       </a> </li>
       <li><a href="#"> <img src="images/fin1.jpg">
-        <h2>Financial</h2>
-        <p>Financial updates</p>
+        <h2>Video</h2>
+        <p>Short description</p>
+      </a> </li>
+      <li><a href="#"> <img src="images/fin1.jpg">
+        <h2>Video</h2>
+        <p>Short description</p>
+      </a> </li>
+      <li><a href="#"> <img src="images/fin1.jpg">
+        <h2>Video</h2>
+        <p>Short description</p>
       </a> </li>
     </ul>
   </div><!-- /content -->
@@ -81,12 +106,10 @@ at your finger tips!</h2>
     <div data-role="navbar">
       <ul>
         <li><a href="#">Forum</a></li>
-        <li><a href="#">Video</a></li>
-        <li><a href="#">Quiz</a></li>
-        <li><a href="#">Events</a></li>
+        <li><a href="#">My feedback</a></li>
       </ul>
     </div>
-    <h4>&copy; 2014 Go Figure</h4>
+    <h4>Copyright &copy; 2015 Go Figure</h4>
   </div>
   <!-- /footer -->
 </div>
@@ -122,12 +145,10 @@ Sandis sim de iundandiam quati duciatur as cum volum volore num nobitatur aped m
     <div data-role="navbar">
       <ul>
         <li><a href="#">Forum</a></li>
-        <li><a href="#">Video</a></li>
-        <li><a href="#">Quiz</a></li>
-        <li><a href="#">Events</a></li>
+        <li><a href="#">My feedback</a></li>
       </ul>
     </div>
-    <h4>&copy; 2014 Go Figure</h4>
+    <h4>Copyright &copy; 2015 Go Figure</h4>
   </div>
   <!-- /footer -->
 </div><!-- /page tax -->
